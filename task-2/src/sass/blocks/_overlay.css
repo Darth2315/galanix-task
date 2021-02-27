@@ -1,0 +1,52 @@
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0,0,0, 0.56);
+    display: none;
+}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 80%;
+    height: 90vh;
+    background-color: #f2f2f2;
+}
+.modal-close {
+    position: absolute;
+    top: 9px;
+    right: -55px;
+    color: tomato;
+    font-size: 81px;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+.image-big {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .modal-close {
+        font-size: 61px;
+        right: -45px;
+    } 
+}
+@media (max-width: 500px) {
+    .modal {
+        padding: 10px;
+        width: 90%;
+        height: 50vh;
+    }
+    .modal-close {
+        font-size: 61px;
+        top: -28px;
+        right: -6px;
+    } 
+}

@@ -1,0 +1,26 @@
+.info {
+    padding: 10px;
+    height: 50px;
+    background-color:tomato;
+    border-radius: 0 0 10px 5px;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.count-image {
+    font-size: 20px;
+    margin-right: 40px;
+}
+.current-date {
+    font-size: 14px;
+}
+@media (max-width: 500px) {
+    .info {
+        justify-content: space-between;
+    }
+    .count-image {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+}

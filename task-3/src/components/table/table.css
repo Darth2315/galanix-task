@@ -1,0 +1,26 @@
+table, td, th {
+    border: 1px solid #e6e6e6;
+}
+
+th {
+    height: 50px;
+    padding: 10px;
+}
+
+td {
+    padding: 5px;
+    height: 40px;
+}
+
+td:first-child {
+    text-align: center;
+}
+
+td:last-child {
+    text-align: center;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}

@@ -1,0 +1,18 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 50px;
+    margin-bottom: 50px;
+}

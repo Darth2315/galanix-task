@@ -1,0 +1,7 @@
+.counter {
+    font-size: 14px;
+}
+.counter span {
+    margin-left: 10px;
+    font-weight: 700;
+}

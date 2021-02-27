@@ -1,0 +1,22 @@
+@import url('./blocks/_images.css');
+@import url('./blocks/_info.css');
+@import url('./blocks/_overlay.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+    }
+}

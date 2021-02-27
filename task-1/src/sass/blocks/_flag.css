@@ -1,0 +1,105 @@
+.flags-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.flag {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    transition: all .6s;
+}
+.flag:hover {
+    transform: scale(1.05);
+}
+
+/* Ukraine */
+.ukraine-top {
+    height: 50%;
+    width: 100%;
+    background-color: #015ABC;
+}
+.ukraine-bottom {
+    height: 50%;
+    width: 100%;
+    background-color: #fed602;
+}
+
+/* Japan */
+.japan {
+    position: relative;
+    border: 1px solid #e6e6e6;
+}
+.japan-circle {
+    position: absolute;
+    width: calc((100% / 3 * 2) / 5 * 3);
+    height: calc(100% / 5 * 3);
+    background-color: #BE0028;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Iceland */
+.iceland {
+    display: grid;
+    grid-template-columns: 91px 34px 175px;
+    grid-template-rows: 91px 34px 91px;
+    column-gap: 0;
+    row-gap: 0;
+    border: 1px solid #e6e6e6;
+    height: 216px;
+}
+.iceland-block:nth-child(5),
+.iceland-block:nth-child(2),
+.iceland-block:nth-child(2n+4) {
+    background-color: #DD1832;
+}
+.iceland-block:nth-child(1) {
+    background-color: #00519D;
+    border-right: 17px solid #fff;
+    border-bottom: 17px solid #fff;
+}
+.iceland-block:nth-child(3) {
+    background-color: #00519D;
+    border-left: 17px solid #fff;
+    border-bottom: 17px solid #fff;
+}
+.iceland-block:nth-child(7) {
+    background-color:  #00519D;
+    border-right: 16.65px solid #fff;
+    border-top: 16.65px solid #fff;
+}
+.iceland-block:nth-child(9) {
+    background-color:  #00519D;
+    border-left: 16.65px solid #fff;
+    border-top: 16.65px solid #fff;
+}
+
+/* Czech Republic */
+.czech {
+    position: relative;
+    border: 1px solid #e6e6e6;
+}
+.czech-top {
+    width: 100%;
+    height: 50%;
+    background-color: #fff;
+}
+.czech-triangle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+	height: 0;
+	border-top: 100px solid transparent;
+	border-left: 150px solid  #09437F;
+    border-bottom: 100px solid transparent;
+}
+.czech-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: #D80C12;
+}
